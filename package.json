@@ -1,0 +1,28 @@
+{
+  "name": "gitbuster",
+  "version": "1.0.0",
+  "description": "Book of the Wilders",
+  "main": "app.js",
+  "scripts": {
+    "validate":   "html-validator --quiet",  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierreStA/gitBuster.git"
+  },
+
+
+
+  "keywords": [],
+
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PierreStA/gitBuster/issues"
+  },
+  "homepage": "https://github.com/PierreStA/gitBuster#readme",
+  "devDependencies": {
+    "w3c-html-validator": "^1.2.1"
+  }
+}

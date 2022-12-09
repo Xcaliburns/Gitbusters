@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitBustersProject</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="../index.html">
+            <img src="../Images/Logo1.png" alt="GitBustersLogo" width="175"
+          /></a>
+        </div>
+        <div class="toggle">
+          <i class="fas fa-bars open"></i>
+          <i class="fas fa-times close"></i>
+        </div>
+        <ul class="menu">
+          <li><a href="../index.html">Acceuil</a></li>
+          <li><a href="perso_david.html">David</a></li>
+          <li><a href="perso_cassandra.html">Cassandra</a></li>
+          <li><a href="perso_pierre.html">Pierre</a></li>
+          <li><a href="perso_claudia.html">Claudia</a></li>
+          <li><a href="perso_antoine.html">Antoine</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="picture-wrapper">
+          <img class="profil-picture" src="../Images/Profil_David.jpg" />
+        </div>
+        <div class="container-bottom">
+          <input id="tab1" type="radio" name="tabs" checked />
+          <label for="tab1">A propos</label>
+          <input id="tab2" type="radio" name="tabs" />
+          <label for="tab2">Objectifs</label>
+          <input id="tab3" type="radio" name="tabs" />
+          <label for="tab3">Me contacter</label>
+
+          <section id="content1">
+            <h1>David ABRUZZO</h1>
+            <p>
+              Depuis plusieurs année, j'exerce le poste de retoucheur sur ligne
+              de montage. Passionne par la creation 3D et le developpement ,
+              j'ai eu l'opportunité de me reconvertir et je l'ai saisie. Ayant
+              réalisé des projets personnels dans le développement web, et dans
+              lej eu video je suis naturellement allé vers le développement web.
+            </p>
+            <h2>Hard skills</h2>
+            <ul>
+              <li>Html</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Unreal engine</li>
+              <li>Blender 3D</li>
+            </ul>
+            <h2 class="second-title">Soft skills</h2>
+            <ul>
+              <li>Empathie</li>
+              <li>Rigeur</li>
+              <li>Curiosité</li>
+            </ul>
+          </section>
+
+          <section id="content2">
+            <h1>Professionnels</h1>
+            <p>
+              Réaliser un stage en sortie de formation et rapidement rejoindre
+              une entreprise en tant que developpeur web.
+            </p>
+          </section>
+
+          <section id="content3">
+            <h1>Mes réseaux</h1>
+            <div class="social-links">
+              <a href="https://github.com/Xcaliburns" target="_blank"
+                ><img src="../Images/github_icon.png" alt="gitHub icon"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/abruzzo-david-39a145101/"
+                target="_blank"
+                ><img src="../Images/linkedin_icon.png" alt="linkedin icon"
+              /></a>
+              <a href="mailto:davidabruzzogames@gmail.com" target="_blank"
+                ><img src="../Images/mail_icon.png" alt="mail icon"
+              /></a>
+            </div>
+            <h2 class="second-title">Où me trouver ?</h2>
+            <img
+              src="../Images/map_david.jpg"
+              alt="carte Stiring Wendel"
+              class="map"
+            />
+            <p>Stiring Wendel</p>
+          </section>
+        </div>
+        <div5 class="avatar-wrapper">
+          <h2 class="title-avatar">Le reste de la team</h2>
+          <a href="perso_antoine.html"
+            ><img
+              src="../Images/Profil_Antoine.jpg"
+              alt="Avatar-antoine"
+              class="avatar"
+          /></a>
+          <a href="perso_pierre.html">
+            <img
+              src="../Images/Profil_Pierre.jpg"
+              alt="Avatar-pierre"
+              class="avatar"
+          /></a>
+          <a href="perso_cassandra.html">
+            <img
+              src="../Images/Profil_Cassandra.jpg"
+              alt="Avatar-cassandra"
+              class="avatar"
+          /></a>
+          <a href="perso_claudia.html"
+            ><img
+              src="../Images/Profil_Claudia.jpg"
+              alt="Avatar-claudia"
+              class="avatar"
+          /></a>
+        </div5>
+      </div>
+      <footer>© GITBUSTERS</footer>
+    </main>
+    <script src="../Script JS\burger.js"></script>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>GitBustersProject</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <img src="Images/Logo1.png" alt="GitBustersLogo" width="180"
+          /></a>
+        </div>
+        <div class="toggle">
+          <i class="fas fa-bars open"></i>
+          <i class="fas fa-times close"></i>
+        </div>
+        <ul class="menu">
+          <li><a href="index.html">Acceuil</a></li>
+          <li><a href="Pages\perso_david.html">David</a></li>
+          <li><a href="Pages\perso_cassandra.html">Cassandra</a></li>
+          <li><a href="Pages\perso_pierre.html">Pierre</a></li>
+          <li><a href="Pages\perso_claudia.html">Claudia</a></li>
+          <li><a href="Pages\perso_antoine.html">Antoine</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="slider">
+        <a class="vignette" href="Pages\perso_antoine.html"
+          ><img
+            src="Images/Profil_Antoine.jpg"
+            alt="img1"
+            title="Antoine"
+            class="imgSlider active"
+        /></a>
+        <a class="vignette" href="Pages\perso_cassandra.html"
+          ><img src="Images/Profil_Cassandra.jpg" alt="img2" class="imgSlider"
+        /></a>
+        <a class="vignette" href="Pages\perso_claudia.html"
+          ><img src="Images/Profil_Claudia.jpg" alt="img3" class="imgSlider"
+        /></a>
+        <a class="vignette" href="Pages\perso_david.html"
+          ><img src="Images/Profil_David.jpg" alt="img4" class="imgSlider"
+        /></a>
+        <a class="vignette" href="Pages\perso_pierre.html"
+          ><img src="Images/Profil_Pierre.jpg" alt="img5" class="imgSlider"
+        /></a>
+
+        <div class="suivant">
+          <i class="fas fa-chevron-circle-right"></i>
+        </div>
+        <div class="precedent">
+          <i class="fas fa-chevron-circle-left"></i>
+        </div>
+      </div>
+      <div class="under-slider">
+        <p class="dev-name"></p>
+      </div>
+      <div class="description-projet"></div>
+    </main>
+    <section class="projet">
+      <h1 class="title-project">Le projet :</h1>
+      <br />
+      <br />
+      <p>
+        Le but de ce projet est avant tout de nous exercer au HTML, CSS et aussi
+        JavaScript ! Nous avons voulu créer un portfolio de notre groupe de
+        travail pour partager nos objectifs professionnels, nos compétences et
+        nos réseaux. Enfin, le challenge était aussi de réaliser un code propre,
+        fonctionnel et un design épuré.
+        <b>Alors challenge réussi ?</b>
+      </p>
+      <a
+        href="https://github.com/PierreStA/gitBuster"
+        target="_blank"
+        class="gitton"
+      >
+        <img src="Images/github_icon.png" alt="GitHubLogo" />
+        <span class="textButton">Voir le Repository</span>
+      </a>
+    </section>
+    <div class="profile-container">
+      <div class="profile-card">
+        <img
+          src="Images/Profil_Antoine.jpg"
+          alt="image1"
+          class="profile-icon"
+        />
+        <div class="profile-name">Antoine DEBORD</div>
+        <div class="profile-position">Web Developer</div>
+        <a href="Pages\perso_antoine.html" class="button">En savoir plus</a>
+      </div>
+      <div class="profile-card">
+        <img
+          src="Images\Profil_Cassandra.jpg"
+          alt="image2"
+          class="profile-icon"
+        />
+        <div class="profile-name">Cassandra BLONDEZ</div>
+        <div class="profile-position">Web Developer</div>
+        <a href="Pages\perso_cassandra.html" class="button">En savoir plus</a>
+      </div>
+      <div class="profile-card">
+        <img
+          src="Images\Profil_Claudia.jpg"
+          alt="image3"
+          class="profile-icon"
+        />
+        <div class="profile-name">Claudia GUERRERO</div>
+        <div class="profile-position">Web Developer</div>
+        <a href="Pages\perso_claudia.html" class="button">En savoir plus</a>
+      </div>
+      <div class="profile-card">
+        <img src="Images\Profil_David.jpg" alt="image3" class="profile-icon" />
+        <div class="profile-name">David <br />ABRUZZO</div>
+        <div class="profile-position">Web Developer</div>
+        <a href="Pages\perso_david.html" class="button">En savoir plus</a>
+      </div>
+      <div class="profile-card">
+        <img src="Images\Profil_Pierre.jpg" alt="image3" class="profile-icon" />
+        <div class="profile-name">Pierre SAINT-AUBIN</div>
+        <div class="profile-position">Web Developer</div>
+        <a href="Pages\perso_pierre.html" class="button">En savoir plus</a>
+      </div>
+    </div>
+    <footer>&copy; GITBUSTERS</footer>
+    <script src="Script JS\app.js"></script>
+    <script src="Script JS\burger.js"></script>
+  </body>
+</html>

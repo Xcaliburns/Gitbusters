@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitBustersProject</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="../index.html">
+            <img src="../Images/Logo1.png" alt="GitBustersLogo" width="175"
+          /></a>
+        </div>
+        <div class="toggle">
+          <i class="fas fa-bars open"></i>
+          <i class="fas fa-times close"></i>
+        </div>
+        <ul class="menu">
+          <li><a href="../index.html">Acceuil</a></li>
+          <li><a href="perso_david.html">David</a></li>
+          <li><a href="perso_cassandra.html">Cassandra</a></li>
+          <li><a href="perso_pierre.html">Pierre</a></li>
+          <li><a href="perso_claudia.html">Claudia</a></li>
+          <li><a href="perso_antoine.html">Antoine</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="picture-wrapper">
+          <img class="profil-picture" src="../Images/Profil_Claudia.jpg" />
+        </div>
+        <div class="container-bottom">
+          <input id="tab1" type="radio" name="tabs" checked />
+          <label for="tab1">A propos</label>
+          <input id="tab2" type="radio" name="tabs" />
+          <label for="tab2">Objectifs</label>
+          <input id="tab3" type="radio" name="tabs" />
+          <label for="tab3">Me contacter</label>
+
+          <section id="content1">
+            <h1>Claudia GUERRERO</h1>
+            <p>
+              J'étais gestionnaire des affaires internationales, j'ai travaillé
+              3 ans dans un hôpital, après je suis partie aux états unis (san
+              Francisco) ou j'ai découvert l'informatique (car je travaillé à
+              coté de Silicon Valley), pour des raisons personnelles je suis
+              arrivé en France l'année 2019 où il fallait recommence tout à
+              nouveau. J'étais prof d'espagnol au début, ensuit assistante
+              d'atelier, et finalement assistante dentaire. Actuellement je suis
+              en formation chez la Wild code School pour devenir développeuse
+              web et mobile.
+            </p>
+            <h2>Hard skills</h2>
+            <ul>
+              <li>Html</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <h2 class="second-title">Soft skills</h2>
+            <ul>
+              <li>Autonome</li>
+              <li>Adaptable</li>
+              <li>Rigoureuse</li>
+            </ul>
+          </section>
+
+          <section id="content2">
+            <h1>Professionnels</h1>
+            <p>
+              Faire une alternance dans un entreprise pour continuer à
+              développer mes skills.
+            </p>
+          </section>
+
+          <section id="content3">
+            <h1>Mes réseaux</h1>
+            <div class="social-links">
+              <a href="https://github.com/Clauga" target="_blank"
+                ><img src="../Images/github_icon.png" alt="gitHub icon"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/claudia-guerrero-dev/"
+                target="_blank"
+                ><img src="../Images/linkedin_icon.png" alt="linkedin icon"
+              /></a>
+              <a href="mailto:clau.guerrero@mailo.com" target="_blank"
+                ><img src="../Images/mail_icon.png" alt="mail icon"
+              /></a>
+            </div>
+            <h2 class="second-title">Où me trouver ?</h2>
+            <img
+              src="../Images/map_claudia.jpg"
+              alt="carte Nantes"
+              class="map"
+            />
+            <p>Nantes</p>
+          </section>
+        </div>
+        <div5 class="avatar-wrapper">
+          <h2 class="title-avatar">Le reste de la team</h2>
+          <a href="perso_antoine.html"
+            ><img
+              src="../Images/Profil_Antoine.jpg"
+              alt="Avatar-antoine"
+              class="avatar"
+          /></a>
+          <a href="perso_pierre.html">
+            <img
+              src="../Images/Profil_Pierre.jpg"
+              alt="Avatar-pierre"
+              class="avatar"
+          /></a>
+          <a href="perso_cassandra.html">
+            <img
+              src="../Images/Profil_Cassandra.jpg"
+              alt="Avatar-cassandra"
+              class="avatar"
+          /></a>
+          <a href="perso_david.html">
+            <img
+              src="../Images/Profil_David.jpg"
+              alt="Avatar-david"
+              class="avatar"
+          /></a>
+        </div5>
+      </div>
+      <footer>© GITBUSTERS</footer>
+    </main>
+    <script src="../Script JS\burger.js"></script>
+  </body>
+</html>

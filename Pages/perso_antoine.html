@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitBustersProject</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="../index.html">
+            <img src="../Images/Logo1.png" alt="GitBustersLogo" width="175"
+          /></a>
+        </div>
+        <div class="toggle">
+          <i class="fas fa-bars open"></i>
+          <i class="fas fa-times close"></i>
+        </div>
+        <ul class="menu">
+          <li><a href="../index.html">Acceuil</a></li>
+          <li><a href="perso_david.html">David</a></li>
+          <li><a href="perso_cassandra.html">Cassandra</a></li>
+          <li><a href="perso_pierre.html">Pierre</a></li>
+          <li><a href="perso_claudia.html">Claudia</a></li>
+          <li><a href="perso_antoine.html">Antoine</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="picture-wrapper">
+          <img class="profil-picture" src="../Images/Profil_Antoine.jpg" />
+        </div>
+        <div class="container-bottom">
+          <input id="tab1" type="radio" name="tabs" checked />
+          <label for="tab1">A propos</label>
+          <input id="tab2" type="radio" name="tabs" />
+          <label for="tab2">Objectifs</label>
+          <input id="tab3" type="radio" name="tabs" />
+          <label for="tab3">Me contacter</label>
+
+          <section id="content1">
+            <h1>Antoine DEBORD</h1>
+            <p>
+              Mon parcours jusqu'à maintenant est essentielement composé
+              d'experiences professionnelle dans des secteurs de l'industrie en
+              tant qu'ouvrier. Ces experiences mon permit d'acquerir un large
+              panel de compétences aussi bien au niveau du savoir faire que du
+              savoir être. Mais ma curiosité et ma soif d'apprendre m'ont poussé
+              ces derniers mois à établir un projet professionnel concret avec
+              de réels perspective d'avenir et d'évolution. Je me suis donc
+              tourné vers une formation à la Wild Code School pour devenir
+              Développeur Web/Mobile.
+            </p>
+            <h2>Hard skills</h2>
+            <ul>
+              <li>Html</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <h2 class="second-title">Soft skills</h2>
+            <ul>
+              <li>Patience</li>
+              <li>Esprit d'équipe</li>
+              <li>Créativité</li>
+            </ul>
+          </section>
+
+          <section id="content2">
+            <h1>Professionnels</h1>
+            <p>
+              A la suite de la formation je souhaite soit continuer ma montée en
+              compétences via une alternance à la Wild Code School ou monter en
+              compétences directement en entreprise en tant que Développeur Web
+              Junior.
+            </p>
+          </section>
+
+          <section id="content3">
+            <h1>Mes réseaux</h1>
+            <div class="social-links">
+              <a href="https://github.com/antoine-droid" target="_blank"
+                ><img src="../Images/github_icon.png" alt="gitHub icon"
+              /></a>
+              <a
+                href="https://www.linkedin.com/in/antoine-debord-2a6b6a259/"
+                target="_blank"
+                ><img src="../Images/linkedin_icon.png" alt="linkedin icon"
+              /></a>
+              <a href="mailto:debordantoine0@gmail.com" target="_blank"
+                ><img src="../Images/mail_icon.png" alt="mail icon"
+              /></a>
+            </div>
+            <h2 class="second-title">Où me trouver ?</h2>
+            <img
+              src="../Images/map_antoine.jpg"
+              alt="carte la savlvetat saint gilles Toulouse"
+              class="map"
+            />
+            <p>Salvetat-Saint-Gilles - Toulouse</p>
+          </section>
+        </div>
+        <div5 class="avatar-wrapper">
+          <h2 class="title-avatar">Le reste de la team</h2>
+          <a href="perso_claudia.html">
+            <img
+              src="../Images/Profil_Claudia.jpg"
+              alt="Avatar-claudia"
+              class="avatar"
+          /></a>
+          <a href="perso_pierre.html">
+            <img
+              src="../Images/Profil_Pierre.jpg"
+              alt="Avatar-pierre"
+              class="avatar"
+          /></a>
+          <a href="perso_cassandra.html">
+            <img
+              src="../Images/Profil_Cassandra.jpg"
+              alt="Avatar-cassandra"
+              class="avatar"
+          /></a>
+          <a href="perso_david.html"
+            ><img
+              src="../Images/Profil_David.jpg"
+              alt="Avatar-david"
+              class="avatar"
+          /></a>
+        </div5>
+      </div>
+      <footer>© GITBUSTERS</footer>
+    </main>
+    <script src="../Script JS\burger.js"></script>
+  </body>
+</html>
